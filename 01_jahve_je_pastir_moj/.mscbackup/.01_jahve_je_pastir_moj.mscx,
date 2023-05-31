@@ -329,15 +329,6 @@
               <ticks_f>4/16</ticks_f>
               <text>moj</text>
               </Lyrics>
-            <Spanner type="Slur">
-              <Slur>
-                </Slur>
-              <next>
-                <location>
-                  <fractions>1/4</fractions>
-                  </location>
-                </next>
-              </Spanner>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -394,13 +385,6 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/4</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
