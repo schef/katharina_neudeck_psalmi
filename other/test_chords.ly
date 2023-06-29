@@ -1,11 +1,11 @@
 %% init
-%% -> /museScore attr="[('version', '3.02')]"
+%% -> /museScore attr="{'version': '3.02'}"
 %% -> /museScore/programVersion text="3.6.2"
 %% <- /museScore/programVersion
 %% -> /museScore/programRevision text="3224f34"
 %% <- /museScore/programRevision
 %% -> /museScore/Score
-%% -> /museScore/Score/LayerTag attr="[('id', '0'), ('tag', 'default')]"
+%% -> /museScore/Score/LayerTag attr="{'id': '0', 'tag': 'default'}"
 %% <- /museScore/Score/LayerTag
 %% -> /museScore/Score/currentLayer text="0"
 %% <- /museScore/Score/currentLayer
@@ -29,40 +29,40 @@
 %% <- /museScore/Score/showFrames
 %% -> /museScore/Score/showMargins text="0"
 %% <- /museScore/Score/showMargins
-%% -> /museScore/Score/metaTag attr="[('name', 'arranger')]"
+%% -> /museScore/Score/metaTag attr="{'name': 'arranger'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag text="Composer" attr="[('name', 'composer')]"
+%% -> /museScore/Score/metaTag text="Composer" attr="{'name': 'composer'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag attr="[('name', 'copyright')]"
+%% -> /museScore/Score/metaTag attr="{'name': 'copyright'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag text="2023-05-04" attr="[('name', 'creationDate')]"
+%% -> /museScore/Score/metaTag text="2023-05-04" attr="{'name': 'creationDate'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag attr="[('name', 'lyricist')]"
+%% -> /museScore/Score/metaTag attr="{'name': 'lyricist'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag attr="[('name', 'movementNumber')]"
+%% -> /museScore/Score/metaTag attr="{'name': 'movementNumber'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag attr="[('name', 'movementTitle')]"
+%% -> /museScore/Score/metaTag attr="{'name': 'movementTitle'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag text="Linux" attr="[('name', 'platform')]"
+%% -> /museScore/Score/metaTag text="Linux" attr="{'name': 'platform'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag attr="[('name', 'poet')]"
+%% -> /museScore/Score/metaTag attr="{'name': 'poet'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag attr="[('name', 'source')]"
+%% -> /museScore/Score/metaTag attr="{'name': 'source'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag attr="[('name', 'translator')]"
+%% -> /museScore/Score/metaTag attr="{'name': 'translator'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag attr="[('name', 'workNumber')]"
+%% -> /museScore/Score/metaTag attr="{'name': 'workNumber'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/metaTag text="Title" attr="[('name', 'workTitle')]"
+%% -> /museScore/Score/metaTag text="Title" attr="{'name': 'workTitle'}"
 %% <- /museScore/Score/metaTag
-%% -> /museScore/Score/Order attr="[('id', 'orchestral'), ('customized', '1')]"
+%% -> /museScore/Score/Order attr="{'id': 'orchestral', 'customized': '1'}"
 %% -> /museScore/Score/Order/name text="Orchestral"
 %% <- /museScore/Score/Order/name
-%% -> /museScore/Score/Order/instrument attr="[('id', 'piano')]"
-%% -> /museScore/Score/Order/instrument/family text="Keyboards" attr="[('id', 'keyboards')]"
+%% -> /museScore/Score/Order/instrument attr="{'id': 'piano'}"
+%% -> /museScore/Score/Order/instrument/family text="Keyboards" attr="{'id': 'keyboards'}"
 %% <- /museScore/Score/Order/instrument/family
 %% <- /museScore/Score/Order/instrument
-%% -> /museScore/Score/Order/section attr="[('id', 'woodwind'), ('brackets', 'true'), ('showSystemMarkings', 'true'), ('barLineSpan', 'true'), ('thinBrackets', 'true')]"
+%% -> /museScore/Score/Order/section attr="{'id': 'woodwind', 'brackets': 'true', 'showSystemMarkings': 'true', 'barLineSpan': 'true', 'thinBrackets': 'true'}"
 %% -> /museScore/Score/Order/section/family text="flutes"
 %% <- /museScore/Score/Order/section/family
 %% -> /museScore/Score/Order/section/family text="oboes"
@@ -73,10 +73,10 @@
 %% <- /museScore/Score/Order/section/family
 %% -> /museScore/Score/Order/section/family text="bassoons"
 %% <- /museScore/Score/Order/section/family
-%% -> /museScore/Score/Order/section/unsorted attr="[('group', 'woodwinds')]"
+%% -> /museScore/Score/Order/section/unsorted attr="{'group': 'woodwinds'}"
 %% <- /museScore/Score/Order/section/unsorted
 %% <- /museScore/Score/Order/section
-%% -> /museScore/Score/Order/section attr="[('id', 'brass'), ('brackets', 'true'), ('showSystemMarkings', 'false'), ('barLineSpan', 'true'), ('thinBrackets', 'true')]"
+%% -> /museScore/Score/Order/section attr="{'id': 'brass', 'brackets': 'true', 'showSystemMarkings': 'false', 'barLineSpan': 'true', 'thinBrackets': 'true'}"
 %% -> /museScore/Score/Order/section/family text="horns"
 %% <- /museScore/Score/Order/section/family
 %% -> /museScore/Score/Order/section/family text="trumpets"
@@ -90,11 +90,11 @@
 %% -> /museScore/Score/Order/section/family text="tubas"
 %% <- /museScore/Score/Order/section/family
 %% <- /museScore/Score/Order/section
-%% -> /museScore/Score/Order/section attr="[('id', 'timpani'), ('brackets', 'true'), ('showSystemMarkings', 'false'), ('barLineSpan', 'true'), ('thinBrackets', 'true')]"
+%% -> /museScore/Score/Order/section attr="{'id': 'timpani', 'brackets': 'true', 'showSystemMarkings': 'false', 'barLineSpan': 'true', 'thinBrackets': 'true'}"
 %% -> /museScore/Score/Order/section/family text="timpani"
 %% <- /museScore/Score/Order/section/family
 %% <- /museScore/Score/Order/section
-%% -> /museScore/Score/Order/section attr="[('id', 'percussion'), ('brackets', 'true'), ('showSystemMarkings', 'false'), ('barLineSpan', 'true'), ('thinBrackets', 'true')]"
+%% -> /museScore/Score/Order/section attr="{'id': 'percussion', 'brackets': 'true', 'showSystemMarkings': 'false', 'barLineSpan': 'true', 'thinBrackets': 'true'}"
 %% -> /museScore/Score/Order/section/family text="keyboard-percussion"
 %% <- /museScore/Score/Order/section/family
 %% -> /museScore/Score/Order/section/family text="drums"
@@ -114,17 +114,17 @@
 %% <- /museScore/Score/Order/family
 %% -> /museScore/Score/Order/family text="synths"
 %% <- /museScore/Score/Order/family
-%% -> /museScore/Score/Order/section attr="[('id', 'plucked-strings'), ('brackets', 'true'), ('showSystemMarkings', 'false'), ('barLineSpan', 'true'), ('thinBrackets', 'true')]"
+%% -> /museScore/Score/Order/section attr="{'id': 'plucked-strings', 'brackets': 'true', 'showSystemMarkings': 'false', 'barLineSpan': 'true', 'thinBrackets': 'true'}"
 %% -> /museScore/Score/Order/section/family text="plucked-strings"
 %% <- /museScore/Score/Order/section/family
 %% <- /museScore/Score/Order/section
 %% -> /museScore/Score/Order/soloists
 %% <- /museScore/Score/Order/soloists
-%% -> /museScore/Score/Order/section attr="[('id', 'voices'), ('brackets', 'true'), ('showSystemMarkings', 'false'), ('barLineSpan', 'false'), ('thinBrackets', 'true')]"
+%% -> /museScore/Score/Order/section attr="{'id': 'voices', 'brackets': 'true', 'showSystemMarkings': 'false', 'barLineSpan': 'false', 'thinBrackets': 'true'}"
 %% -> /museScore/Score/Order/section/family text="voices"
 %% <- /museScore/Score/Order/section/family
 %% <- /museScore/Score/Order/section
-%% -> /museScore/Score/Order/section attr="[('id', 'strings'), ('brackets', 'true'), ('showSystemMarkings', 'true'), ('barLineSpan', 'true'), ('thinBrackets', 'true')]"
+%% -> /museScore/Score/Order/section attr="{'id': 'strings', 'brackets': 'true', 'showSystemMarkings': 'true', 'barLineSpan': 'true', 'thinBrackets': 'true'}"
 %% -> /museScore/Score/Order/section/family text="orchestral-strings"
 %% <- /museScore/Score/Order/section/family
 %% <- /museScore/Score/Order/section
@@ -132,15 +132,15 @@
 %% <- /museScore/Score/Order/unsorted
 %% <- /museScore/Score/Order
 %% -> /museScore/Score/Part
-%% -> /museScore/Score/Part/Staff attr="[('id', '1')]"
-%% -> /museScore/Score/Part/Staff/StaffType attr="[('group', 'pitched')]"
+%% -> /museScore/Score/Part/Staff attr="{'id': '1'}"
+%% -> /museScore/Score/Part/Staff/StaffType attr="{'group': 'pitched'}"
 %% -> /museScore/Score/Part/Staff/StaffType/name text="stdNormal"
 %% <- /museScore/Score/Part/Staff/StaffType/name
 %% <- /museScore/Score/Part/Staff/StaffType
 %% <- /museScore/Score/Part/Staff
 %% -> /museScore/Score/Part/trackName text="Piano"
 %% <- /museScore/Score/Part/trackName
-%% -> /museScore/Score/Part/Instrument attr="[('id', 'piano')]"
+%% -> /museScore/Score/Part/Instrument attr="{'id': 'piano'}"
 %% -> /museScore/Score/Part/Instrument/longName text="Piano"
 %% <- /museScore/Score/Part/Instrument/longName
 %% -> /museScore/Score/Part/Instrument/shortName text="Pno."
@@ -157,7 +157,7 @@
 %% <- /museScore/Score/Part/Instrument/maxPitchA
 %% -> /museScore/Score/Part/Instrument/instrumentId text="keyboard.piano"
 %% <- /museScore/Score/Part/Instrument/instrumentId
-%% -> /museScore/Score/Part/Instrument/clef text="F" attr="[('staff', '2')]"
+%% -> /museScore/Score/Part/Instrument/clef text="F" attr="{'staff': '2'}"
 %% <- /museScore/Score/Part/Instrument/clef
 %% -> /museScore/Score/Part/Instrument/Articulation
 %% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
@@ -165,75 +165,69 @@
 %% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="95"
 %% <- /museScore/Score/Part/Instrument/Articulation/gateTime
 %% <- /museScore/Score/Part/Instrument/Articulation
-%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'staccatissimo')]"
+%% -> /museScore/Score/Part/Instrument/Articulation attr="{'name': 'staccatissimo'}"
 %% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
 %% <- /museScore/Score/Part/Instrument/Articulation/velocity
 %% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="33"
 %% <- /museScore/Score/Part/Instrument/Articulation/gateTime
 %% <- /museScore/Score/Part/Instrument/Articulation
-%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'staccato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation attr="{'name': 'staccato'}"
 %% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
 %% <- /museScore/Score/Part/Instrument/Articulation/velocity
 %% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="50"
 %% <- /museScore/Score/Part/Instrument/Articulation/gateTime
 %% <- /museScore/Score/Part/Instrument/Articulation
-%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'portato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation attr="{'name': 'portato'}"
 %% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
 %% <- /museScore/Score/Part/Instrument/Articulation/velocity
 %% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="67"
 %% <- /museScore/Score/Part/Instrument/Articulation/gateTime
 %% <- /museScore/Score/Part/Instrument/Articulation
-%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'tenuto')]"
+%% -> /museScore/Score/Part/Instrument/Articulation attr="{'name': 'tenuto'}"
 %% -> /museScore/Score/Part/Instrument/Articulation/velocity text="100"
 %% <- /museScore/Score/Part/Instrument/Articulation/velocity
 %% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
 %% <- /museScore/Score/Part/Instrument/Articulation/gateTime
 %% <- /museScore/Score/Part/Instrument/Articulation
-%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'marcato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation attr="{'name': 'marcato'}"
 %% -> /museScore/Score/Part/Instrument/Articulation/velocity text="120"
 %% <- /museScore/Score/Part/Instrument/Articulation/velocity
 %% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="67"
 %% <- /museScore/Score/Part/Instrument/Articulation/gateTime
 %% <- /museScore/Score/Part/Instrument/Articulation
-%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'sforzato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation attr="{'name': 'sforzato'}"
 %% -> /museScore/Score/Part/Instrument/Articulation/velocity text="150"
 %% <- /museScore/Score/Part/Instrument/Articulation/velocity
 %% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
 %% <- /museScore/Score/Part/Instrument/Articulation/gateTime
 %% <- /museScore/Score/Part/Instrument/Articulation
-%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'sforzatoStaccato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation attr="{'name': 'sforzatoStaccato'}"
 %% -> /museScore/Score/Part/Instrument/Articulation/velocity text="150"
 %% <- /museScore/Score/Part/Instrument/Articulation/velocity
 %% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="50"
 %% <- /museScore/Score/Part/Instrument/Articulation/gateTime
 %% <- /museScore/Score/Part/Instrument/Articulation
-%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'marcatoStaccato')]"
+%% -> /museScore/Score/Part/Instrument/Articulation attr="{'name': 'marcatoStaccato'}"
 %% -> /museScore/Score/Part/Instrument/Articulation/velocity text="120"
 %% <- /museScore/Score/Part/Instrument/Articulation/velocity
 %% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="50"
 %% <- /museScore/Score/Part/Instrument/Articulation/gateTime
 %% <- /museScore/Score/Part/Instrument/Articulation
-%% -> /museScore/Score/Part/Instrument/Articulation attr="[('name', 'marcatoTenuto')]"
+%% -> /museScore/Score/Part/Instrument/Articulation attr="{'name': 'marcatoTenuto'}"
 %% -> /museScore/Score/Part/Instrument/Articulation/velocity text="120"
 %% <- /museScore/Score/Part/Instrument/Articulation/velocity
 %% -> /museScore/Score/Part/Instrument/Articulation/gateTime text="100"
 %% <- /museScore/Score/Part/Instrument/Articulation/gateTime
 %% <- /museScore/Score/Part/Instrument/Articulation
 %% -> /museScore/Score/Part/Instrument/Channel
-%% -> /museScore/Score/Part/Instrument/Channel/program attr="[('value', '0')]"
-%% <- /museScore/Score/Part/Instrument/Channel/program
-%% -> /museScore/Score/Part/Instrument/Channel/synti text="Fluid"
-%% <- /museScore/Score/Part/Instrument/Channel/synti
-%% <- /museScore/Score/Part/Instrument/Channel
-%% -> /museScore/Score/Part/Instrument/Channel attr="[('name', 'harmony')]"
-%% -> /museScore/Score/Part/Instrument/Channel/program attr="[('value', '0')]"
+%% -> /museScore/Score/Part/Instrument/Channel/program attr="{'value': '0'}"
 %% <- /museScore/Score/Part/Instrument/Channel/program
 %% -> /museScore/Score/Part/Instrument/Channel/synti text="Fluid"
 %% <- /museScore/Score/Part/Instrument/Channel/synti
 %% <- /museScore/Score/Part/Instrument/Channel
 %% <- /museScore/Score/Part/Instrument
 %% <- /museScore/Score/Part
-%% -> /museScore/Score/Staff attr="[('id', '1')]"
+%% -> /museScore/Score/Staff attr="{'id': '1'}"
 %% Staff(id='1', children=[])
 %% -> /museScore/Score/Staff/VBox
 %% -> /museScore/Score/Staff/VBox/height text="10"
@@ -254,162 +248,128 @@
 %% <- /museScore/Score/Staff/VBox/Text
 %% <- /museScore/Score/Staff/VBox
 %% -> /museScore/Score/Staff/Measure
-%% Measure(children=[])
+%% Measure(end_repeat='', children=[])
 %% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/KeySig
+%% KeySig(accidental='4')
+%% -> /museScore/Score/Staff/Measure/voice/KeySig/accidental text="4"
+%% <- /museScore/Score/Staff/Measure/voice/KeySig/accidental
+%% <- /museScore/Score/Staff/Measure/voice/KeySig
 %% -> /museScore/Score/Staff/Measure/voice/TimeSig
-%% TimeSig(sig_n='4', sig_d='4')
-%% -> /museScore/Score/Staff/Measure/voice/TimeSig/sigN text="4"
+%% TimeSig(sig_n='3', sig_d='4')
+%% -> /museScore/Score/Staff/Measure/voice/TimeSig/sigN text="3"
 %% <- /museScore/Score/Staff/Measure/voice/TimeSig/sigN
 %% -> /museScore/Score/Staff/Measure/voice/TimeSig/sigD text="4"
 %% <- /museScore/Score/Staff/Measure/voice/TimeSig/sigD
 %% <- /museScore/Score/Staff/Measure/voice/TimeSig
-%% -> /museScore/Score/Staff/Measure/voice/Harmony
-%% Harmony(root='14', root_case='', name='', base='')
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/root text="14"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/root
-%% <- /museScore/Score/Staff/Measure/voice/Harmony
 %% -> /museScore/Score/Staff/Measure/voice/Rest
-%% Rest(duration_type='measure', duration='4/4', dots='')
+%% Rest(duration_type='measure', duration='3/4', dots='')
 %% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
 %% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
-%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="4/4"
-%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
-%% <- /museScore/Score/Staff/Measure/voice/Rest
-%% -> /museScore/Score/Staff/Measure/voice/location
-%% Location(fractions='-1/2')
-%% -> /museScore/Score/Staff/Measure/voice/location/fractions text="-1/2"
-%% <- /museScore/Score/Staff/Measure/voice/location/fractions
-%% <- /museScore/Score/Staff/Measure/voice/location
-%% -> /museScore/Score/Staff/Measure/voice/Harmony
-%% Harmony(root='12', root_case='', name='', base='')
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/root text="12"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/root
-%% <- /museScore/Score/Staff/Measure/voice/Harmony
-%% -> /museScore/Score/Staff/Measure/voice/location
-%% Location(fractions='1/4')
-%% -> /museScore/Score/Staff/Measure/voice/location/fractions text="1/4"
-%% <- /museScore/Score/Staff/Measure/voice/location/fractions
-%% <- /museScore/Score/Staff/Measure/voice/location
-%% -> /museScore/Score/Staff/Measure/voice/Harmony
-%% Harmony(root='14', root_case='', name='', base='')
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/root text="14"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/root
-%% <- /museScore/Score/Staff/Measure/voice/Harmony
-%% <- /museScore/Score/Staff/Measure/voice
-%% <- /museScore/Score/Staff/Measure
-%% -> /museScore/Score/Staff/Measure
-%% Measure(children=[])
-%% -> /museScore/Score/Staff/Measure/voice
-%% -> /museScore/Score/Staff/Measure/voice/Harmony
-%% Harmony(root='14', root_case='1', name='', base='')
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/root text="14"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/root
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/rootCase text="1"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/rootCase
-%% <- /museScore/Score/Staff/Measure/voice/Harmony
-%% -> /museScore/Score/Staff/Measure/voice/Chord
-%% Chord(duration_type='quarter', note_pitch='72', note_tpc='14', dots='')
-%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
-%% <- /museScore/Score/Staff/Measure/voice/Chord
-%% -> /museScore/Score/Staff/Measure/voice/Harmony
-%% Harmony(root='16', root_case='1', name='', base='')
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/root text="16"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/root
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/rootCase text="1"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/rootCase
-%% <- /museScore/Score/Staff/Measure/voice/Harmony
-%% -> /museScore/Score/Staff/Measure/voice/Chord
-%% Chord(duration_type='quarter', note_pitch='72', note_tpc='14', dots='')
-%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
-%% <- /museScore/Score/Staff/Measure/voice/Chord
-%% -> /museScore/Score/Staff/Measure/voice/Harmony
-%% Harmony(root='18', root_case='1', name='', base='')
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/root text="18"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/root
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/rootCase text="1"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/rootCase
-%% <- /museScore/Score/Staff/Measure/voice/Harmony
-%% -> /museScore/Score/Staff/Measure/voice/Chord
-%% Chord(duration_type='quarter', note_pitch='72', note_tpc='14', dots='')
-%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
-%% <- /museScore/Score/Staff/Measure/voice/Chord
-%% -> /museScore/Score/Staff/Measure/voice/Harmony
-%% Harmony(root='13', root_case='1', name='', base='')
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/root text="13"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/root
-%% -> /museScore/Score/Staff/Measure/voice/Harmony/rootCase text="1"
-%% <- /museScore/Score/Staff/Measure/voice/Harmony/rootCase
-%% <- /museScore/Score/Staff/Measure/voice/Harmony
-%% -> /museScore/Score/Staff/Measure/voice/Chord
-%% Chord(duration_type='quarter', note_pitch='72', note_tpc='14', dots='')
-%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="72"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
-%% <- /museScore/Score/Staff/Measure/voice/Chord
-%% <- /museScore/Score/Staff/Measure/voice
-%% <- /museScore/Score/Staff/Measure
-%% -> /museScore/Score/Staff/Measure
-%% Measure(children=[])
-%% -> /museScore/Score/Staff/Measure/voice
-%% -> /museScore/Score/Staff/Measure/voice/Rest
-%% Rest(duration_type='measure', duration='4/4', dots='')
-%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
-%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
-%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="4/4"
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="3/4"
 %% <- /museScore/Score/Staff/Measure/voice/Rest/duration
 %% <- /museScore/Score/Staff/Measure/voice/Rest
 %% <- /museScore/Score/Staff/Measure/voice
 %% <- /museScore/Score/Staff/Measure
 %% -> /museScore/Score/Staff/Measure
-%% Measure(children=[])
+%% Measure(end_repeat='2', children=[])
+%% -> /museScore/Score/Staff/Measure/endRepeat text="2"
+%% <- /museScore/Score/Staff/Measure/endRepeat
 %% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Spanner attr="{'type': 'Volta'}"
+%% VoltaSpanner(end_hook_type='1', begin_text='3.', endings='3', next_location_measures='1', prev_location_measures='')
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/Volta
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/Volta/endHookType text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/Volta/endHookType
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/Volta/beginText text="3."
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/Volta/beginText
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/Volta/endings text="3"
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/Volta/endings
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/Volta
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/next/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Spanner
 %% -> /museScore/Score/Staff/Measure/voice/Rest
-%% Rest(duration_type='half', duration='', dots='')
-%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% Rest(duration_type='measure', duration='3/4', dots='')
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
 %% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="3/4"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
 %% <- /museScore/Score/Staff/Measure/voice/Rest
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% -> /museScore/Score/Staff/Measure
+%% Measure(end_repeat='', children=[])
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Spanner attr="{'type': 'Volta'}"
+%% VoltaSpanner(end_hook_type='', begin_text='', endings='', next_location_measures='', prev_location_measures='-1')
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/prev/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Spanner attr="{'type': 'Volta'}"
+%% VoltaSpanner(end_hook_type='1', begin_text='2.', endings='2', next_location_measures='1', prev_location_measures='')
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/Volta
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/Volta/endHookType text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/Volta/endHookType
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/Volta/beginText text="2."
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/Volta/beginText
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/Volta/endings text="2"
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/Volta/endings
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/Volta
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/next
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/next/location
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/next/location/measures text="1"
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/next/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/next/location
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/next
+%% <- /museScore/Score/Staff/Measure/voice/Spanner
 %% -> /museScore/Score/Staff/Measure/voice/Rest
-%% Rest(duration_type='half', duration='', dots='')
-%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="half"
+%% Rest(duration_type='measure', duration='3/4', dots='')
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
 %% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="3/4"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
+%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/BarLine
+%% BarLine(subtype='double')
+%% -> /museScore/Score/Staff/Measure/voice/BarLine/subtype text="double"
+%% <- /museScore/Score/Staff/Measure/voice/BarLine/subtype
+%% <- /museScore/Score/Staff/Measure/voice/BarLine
+%% <- /museScore/Score/Staff/Measure/voice
+%% <- /museScore/Score/Staff/Measure
+%% -> /museScore/Score/Staff/Measure
+%% Measure(end_repeat='', children=[])
+%% -> /museScore/Score/Staff/Measure/voice
+%% -> /museScore/Score/Staff/Measure/voice/Spanner attr="{'type': 'Volta'}"
+%% VoltaSpanner(end_hook_type='', begin_text='', endings='', next_location_measures='', prev_location_measures='-1')
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/prev
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/prev/location
+%% -> /museScore/Score/Staff/Measure/voice/Spanner/prev/location/measures text="-1"
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/prev/location/measures
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/prev/location
+%% <- /museScore/Score/Staff/Measure/voice/Spanner/prev
+%% <- /museScore/Score/Staff/Measure/voice/Spanner
+%% -> /museScore/Score/Staff/Measure/voice/Rest
+%% Rest(duration_type='measure', duration='3/4', dots='')
+%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="measure"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Rest/duration text="3/4"
+%% <- /museScore/Score/Staff/Measure/voice/Rest/duration
 %% <- /museScore/Score/Staff/Measure/voice/Rest
 %% <- /museScore/Score/Staff/Measure/voice
 %% <- /museScore/Score/Staff/Measure
 %% <- /museScore/Score/Staff
 %% <- /museScore/Score
 %% <- /museScore
-%% pitch_diff 12, last_pitch 72, pitch 72, tcp_diff 0
-%% pitch_diff >
-%% pitch_diff 0, last_pitch 72, pitch 72, tcp_diff 0
-%% pitch_diff 0, last_pitch 72, pitch 72, tcp_diff 0
-%% pitch_diff 0, last_pitch 72, pitch 72, tcp_diff 0
-\version "2.19.84"
+\version "2.24.1"
 \include "deutsch.ly"
 
 \layout {
@@ -422,25 +382,24 @@
 }
 
 staffOne = \relative c' {
-  \time 4/4
-  r1 |
-  c'4 c4 c4 c4 |
-  r1 |
-  r2 r2 |
+  \key e \major
+  \time 3/4
+  r2. |
+  \set Score.repeatCommands = #'((volta "3.")) r2. \bar ":|." |
+  \set Score.repeatCommands = #'((volta #f)) \set Score.repeatCommands = #'((volta "2.")) r2. \bar "||" |
+  \set Score.repeatCommands = #'((volta #f)) r2. |
 }
 
 harmonyOne = \chordmode  {
-  14 12 14 |
-  14 16 18 13 |
-  |
-  |
+  s2. |
+  s2. |
+  s2. |
+  s2. |
 }
 
 \score {
     <<
     \new ChordNames \harmonyOne
-    \new Staff {
-        \new Voice = "lead" { \staffOne }
-    }
+    \new Staff { \staffOne }
     >>
 }

@@ -157,8 +157,11 @@
         </VBox>
       <Measure>
         <voice>
+          <KeySig>
+            <accidental>4</accidental>
+            </KeySig>
           <TimeSig>
-            <sigN>4</sigN>
+            <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Harmony>
@@ -166,31 +169,60 @@
             </Harmony>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>3/4</duration>
             </Rest>
           <location>
-            <fractions>-1/2</fractions>
+            <fractions>-1/4</fractions>
             </location>
           <Harmony>
             <root>12</root>
             </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
-          <Harmony>
-            <root>14</root>
-            </Harmony>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
+          <Harmony>
+            <root>14</root>
+            </Harmony>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <root>14</root>
             <rootCase>1</rootCase>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-1/4</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -202,17 +234,55 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Harmony>
             <root>18</root>
             <rootCase>1</rootCase>
             </Harmony>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>1/4</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>72</pitch>
               <tpc>14</tpc>
               </Note>
@@ -222,35 +292,70 @@
             <Note>
               <pitch>72</pitch>
               <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <RehearsalMark>
+            <text>A</text>
+            </RehearsalMark>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
-            <durationType>quarter</durationType>
+            <durationType>eighth</durationType>
             <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               <pitch>69</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Rest>
+            <durationType>eighth</durationType>
+            </Rest>
+          <Harmony>
+            <root>14</root>
+            </Harmony>
           <Chord>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <root>14</root>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
           <Chord>
             <durationType>quarter</durationType>
             <Note>

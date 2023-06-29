@@ -187,8 +187,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <syllabic>end</syllabic>
-              <ticks_f>0/4</ticks_f>
+              <syllabic>middle</syllabic>
               <text>ma</text>
               </Lyrics>
             <Note>
@@ -199,9 +198,10 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
+              <syllabic>end</syllabic>
               <ticks>480</ticks>
               <ticks_f>1/4</ticks_f>
-              <text>bik</text>
+              <text>bik.</text>
               </Lyrics>
             <Lyrics>
               <no>1</no>
@@ -242,9 +242,13 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Rest>
+          <Chord>
             <durationType>quarter</durationType>
-            </Rest>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       </Staff>

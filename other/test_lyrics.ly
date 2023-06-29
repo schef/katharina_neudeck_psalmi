@@ -307,11 +307,9 @@
 %% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
 %% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
-%% Lyrics(text='ma', syllabic='end', ticks='', ticks_f='0/4', no='')
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% Lyrics(text='ma', syllabic='middle', ticks='', ticks_f='', no='')
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="middle"
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f text="0/4"
-%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="ma"
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
@@ -327,12 +325,14 @@
 %% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
 %% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
-%% Lyrics(text='bik', syllabic='', ticks='480', ticks_f='1/4', no='')
+%% Lyrics(text='bik.', syllabic='end', ticks='480', ticks_f='1/4', no='')
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic text="end"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks text="480"
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f text="1/4"
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="bik"
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text text="bik."
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics
@@ -389,11 +389,17 @@
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Note
 %% <- /museScore/Score/Staff/Measure/voice/Chord
-%% -> /museScore/Score/Staff/Measure/voice/Rest
-%% Rest(duration_type='quarter', duration='', dots='')
-%% -> /museScore/Score/Staff/Measure/voice/Rest/durationType text="quarter"
-%% <- /museScore/Score/Staff/Measure/voice/Rest/durationType
-%% <- /museScore/Score/Staff/Measure/voice/Rest
+%% -> /museScore/Score/Staff/Measure/voice/Chord
+%% Chord(duration_type='quarter', note_pitch='60', note_tpc='14', dots='')
+%% -> /museScore/Score/Staff/Measure/voice/Chord/durationType text="quarter"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/durationType
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/pitch text="60"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/pitch
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Note/tpc text="14"
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note/tpc
+%% <- /museScore/Score/Staff/Measure/voice/Chord/Note
+%% <- /museScore/Score/Staff/Measure/voice/Chord
 %% <- /museScore/Score/Staff/Measure/voice
 %% <- /museScore/Score/Staff/Measure
 %% <- /museScore/Score/Staff
@@ -404,6 +410,7 @@
 %% pitch_diff 2, last_pitch 64, pitch 64, tcp_diff 2
 %% pitch_diff 1, last_pitch 65, pitch 65, tcp_diff -5
 %% pitch_diff 0, last_pitch 65, pitch 65, tcp_diff 0
+%% pitch_diff -5, last_pitch 60, pitch 60, tcp_diff 1
 \version "2.19.84"
 \include "deutsch.ly"
 
@@ -418,7 +425,7 @@
 staffOne = \relative c' {
   \time 4/4
   c4 d4 e4 f4 |
-  f2. r4 |
+  f2. c4 |
 }
 
 harmonyOne = \chordmode  {
@@ -427,22 +434,20 @@ harmonyOne = \chordmode  {
 }
 
 lyricOneZero = \lyricmode {
-  kaj4 i4 ma4 bik4 |
-  S1 |
+  kaj4 i4 -- ma4 -- bik.4 |
+  fraction_not_found[3/4] 4 |
 }
 
 lyricOneOne = \lyricmode {
-  ti4 si.4 kmetek2 |
-  S1 |
+  ti4 -- si.4 4 kmetek4 |
+  fraction_not_found[3/4] 4 |
 }
 
 \score {
     <<
     \new ChordNames \harmonyOne
-    \new Staff {
-        \new Voice = "lead" { \staffOne }
-    }
-    \new Lyrics "lead" { \lyricOneZero }
-    \new Lyrics "lead" { \lyricOneOne }
+    \new Staff { \staffOne }
+    \new Lyrics { \lyricOneZero }
+    \new Lyrics { \lyricOneOne }
     >>
 }
