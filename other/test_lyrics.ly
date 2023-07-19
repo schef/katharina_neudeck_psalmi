@@ -12,9 +12,11 @@ markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bo
 \header {
   titlex = "Farmfest 2023"
   title = "TEST LYRICS"
-  broj = "5"
+  meter = "5"
+  %broj = "5"
   composer = "comps"
-  style = "liriks"
+  poet = "liriks"
+  %style = "liriks"
   %tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Izvorno: Name, Album } }
 }
 
