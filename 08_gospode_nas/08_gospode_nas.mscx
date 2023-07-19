@@ -111,6 +111,10 @@
           <style>Composer</style>
           <text>Katharina Neudeck</text>
           </Text>
+        <Text>
+          <style>Instrument Name (Part)</style>
+          <text>8</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
@@ -285,7 +289,7 @@
             <Lyrics>
               <ticks>720</ticks>
               <ticks_f>3/8</ticks_f>
-              <text>ti</text>
+              <text>ti,</text>
               </Lyrics>
             <Spanner type="Slur">
               <Slur>
@@ -819,7 +823,7 @@
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>ja</text>
+              <text>ja.</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -1647,15 +1651,15 @@
           <style>Frame</style>
           <text>2.    
 Što li je čovjek da ga se spominješ,    
-sin čovječi, te ga pohodiš.    
-Ti ga učini malo manjim od Boga,    
-slavom i sjajemjnjega okruni.    
+sin čovječji, te ga pohodiš?    
+Ti ga učini malo manjim od Boga,
+slavom i sjajem njega okruni.
     
 3.    
-Vlast mu dade nad djelima svojim,    
-njemu pod noge sve podloži.    
-Jahve, naš Gospode divno je ime,    
-ime tvoje, po svoj zemlji.   </text>
+Vlast mu dade nad djelima svojim,
+njemu pod noge sve podloži.
+Jahve, naš Gospode, divno je ime,
+ime tvoje, po svoj zemlji.</text>
           </Text>
         </TBox>
       </Staff>

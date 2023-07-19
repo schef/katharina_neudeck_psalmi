@@ -107,12 +107,13 @@
           <style>Composer</style>
           <text>Katharina Neudeck</text>
           </Text>
+        <Text>
+          <style>Instrument Name (Part)</style>
+          <text>5</text>
+          </Text>
         </VBox>
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>
@@ -397,7 +398,7 @@
               <syllabic>end</syllabic>
               <ticks>120</ticks>
               <ticks_f>2/32</ticks_f>
-              <text>som.</text>
+              <text>som,</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -1236,7 +1237,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <ticks_f>0/16</ticks_f>
+              <ticks_f>0/8</ticks_f>
               <text>že,</text>
               </Lyrics>
             <Note>
@@ -1263,7 +1264,6 @@
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Lyrics>
-              <syllabic>begin</syllabic>
               <text>ne</text>
               </Lyrics>
             <Note>
@@ -1276,7 +1276,6 @@
           <Chord>
             <durationType>16th</durationType>
             <Lyrics>
-              <syllabic>end</syllabic>
               <ticks_f>0/16</ticks_f>
               <text>boj</text>
               </Lyrics>
@@ -1563,7 +1562,7 @@
               <syllabic>end</syllabic>
               <ticks>360</ticks>
               <ticks_f>6/32</ticks_f>
-              <text>đeš</text>
+              <text>đeš,</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -1752,7 +1751,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <text>Ja</text>
+              <text>ja</text>
               </Lyrics>
             <Note>
               <pitch>60</pitch>
@@ -1893,10 +1892,10 @@
         <Text>
           <style>Frame</style>
           <text>2.    
-Svaki korak, svaki korak, hodam sa Isusom,    
+Svaki korak, svaki korak, hodam sa Isusom.    
 Moj najbolji prijatelj, on me uvijek čuje.    
-Svaki korak, svaki korak hodam sa Isusom    
-on vidi moje brige sve.  </text>
+Svaki korak, svaki korak hodam sa Isusom,    
+on vidi moje brige sve.</text>
           </Text>
         </TBox>
       </Staff>

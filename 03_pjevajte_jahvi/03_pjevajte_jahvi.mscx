@@ -107,6 +107,14 @@
           <style>Composer</style>
           <text>Katharina Neudeck</text>
           </Text>
+        <Text>
+          <style>Lyricist</style>
+          <text>Psalam 98</text>
+          </Text>
+        <Text>
+          <style>Instrument Name (Part)</style>
+          <text>3</text>
+          </Text>
         </VBox>
       <Measure>
         <startRepeat/>
@@ -1065,7 +1073,7 @@
               <syllabic>end</syllabic>
               <ticks>2880</ticks>
               <ticks_f>24/16</ticks_f>
-              <text>ga</text>
+              <text>ga.</text>
               </Lyrics>
             <Spanner type="Slur">
               <Slur>
@@ -1462,7 +1470,7 @@
               <syllabic>end</syllabic>
               <ticks>240</ticks>
               <ticks_f>2/16</ticks_f>
-              <text>ja.</text>
+              <text>ja!</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -1761,7 +1769,7 @@
             <durationType>half</durationType>
             <Lyrics>
               <syllabic>end</syllabic>
-              <text>ja.</text>
+              <text>ja!</text>
               </Lyrics>
             <Note>
               <pitch>62</pitch>
