@@ -412,7 +412,7 @@ aFourR = \paper {
 }
 
 \header {
-  copyright = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Sponzor: Savez baptističkih crkava u RH | Izdavač nota: Riječi Iskrene } }
+  copyright = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Savez baptističkih crkava u RH | Riječi Iskrene, Dravska 8, Pušćine } }
   %tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Tobi Wörner } }
   tagline = ""
 }
