@@ -145,12 +145,16 @@ lyricOneZero = \lyricmode {
 \markup {
   \column {
     \line { \bold 2. }
+    \vspace #4
+    \line { \bold 3. }
+  }
+  \hspace #1
+  \column {
     \line { Sva zemljo, poklikni Jahvi, }
     \line { raduj se, kliči i pjevaj! }
     \line { Lirama slavite Boga }
     \line { uz trublje i zvuke rogova! }
-    \line {  }
-    \line { \bold 3. }
+    \vspace #1
     \line { Nek' huči more i što je u njemu, }
     \line { zemlja i žitelji njezini! }
     \line { Rijeke nek' plješću rukama, }

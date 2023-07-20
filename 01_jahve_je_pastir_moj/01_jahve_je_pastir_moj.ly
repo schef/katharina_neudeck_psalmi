@@ -2,21 +2,21 @@
 \include "deutsch.ly"
 jazzChords = { \semiGermanChords }
 aFourL = {}
-markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
 %\include "../config/include.ily"
+markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
 
 \layout {
   indent = 0
 }
 
 \header {
-  titlex = "Farmfest 2023"
+  titlex = "Pjevajte Jahvi"
   title = "JAHVE JE PASTIR MOJ"
-  poet = "Psalam 23"
-  %style = "Psalam 23"
+  %poet = "Psalam 23"
+  style = "Psalam 23"
   composer = "Katharina Neudeck"
-  meter = "1"
-  %broj = "1"
+  %meter = "1"
+  broj = "1"
   %tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Izvorno: Name, Album } }
 }
 
@@ -96,18 +96,23 @@ lyricOneZero = \lyricmode {
 \markup {
   \column {
     \line { \bold 2. }
+    \vspace #4
+    \line { \bold 3. }
+    \vspace #4
+    \line { \bold 4. }
+  }
+  \hspace #1
+  \column {
     \line { Da mi je dolinom smrti proći, }
     \line { zla se ne bojim, jer si sa mnom. }
     \line { Tvoj štap i palica tvoja }
     \line { utjeha su meni. }
-    \line {  }
-    \line { \bold 3. }
+    \vspace #1
     \line { Trpezu preda mnom prostireš, }
     \line { na oči dušmanima mojim. }
     \line { Uljem mi glavu mažeš, }
     \line { čaša se moja prelijeva. }
-    \line {  }
-    \line { \bold 4. }
+    \vspace #1
     \line { Dobrota i milost me prate }
     \line { sve dane života moga. }
     \line { U domu ću tvome biti }

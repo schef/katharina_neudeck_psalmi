@@ -1,22 +1,22 @@
 \version "2.24.1"
 \include "deutsch.ly"
-jazzChords = {}
+jazzChords = { \semiGermanChords }
 aFourL = {}
-markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
 %\include "../config/include.ily"
+markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
 
 \layout {
   indent = 0
 }
 
 \header {
-  titlex = "Farmfest 2023"
+  titlex = "Pjevajte Jahvi"
   title = "GORAMA OČI SVOJE UZDIŽEM"
   composer = "Katharina Neudeck"
-  poet = "Psalam 121"
-  %style = "Psalam 121"
-  meter = "2"
-  %broj = "2"
+  %poet = "Psalam 121"
+  style = "Psalam 121"
+  %meter = "2"
+  broj = "2"
   %tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Izvorno: Name, Album } }
 }
 
@@ -129,12 +129,16 @@ lyricOneZero = \lyricmode {
 \markup {
   \column {
     \line { \bold 2. }
+    \vspace #4
+    \line { \bold 3. }
+  }
+  \hspace #1
+  \column {
     \line { Jahve je čuvar tvoj, }
     \line { Bog ti je zaklon i zaštita. }
     \line { Sunce ti neće danju nauditi }
     \line { ni mjesec noću. }
-    \line {  }
-    \line { \bold 3. }
+    \vspace #1
     \line { Bog te štiti od svakog zla, }
     \line { on čuva život tvoj, }
     \line { čuva te na odlasku i povratku }
