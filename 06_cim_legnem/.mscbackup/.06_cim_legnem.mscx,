@@ -130,10 +130,6 @@
             <offset x="-13.0645" y="1.77419"/>
             <text><sym>metNoteQuarterUp</sym> = 63</text>
             </Tempo>
-          <RehearsalMark>
-            <offset x="-8.27419" y="-3.98194"/>
-            <text>Refren</text>
-            </RehearsalMark>
           <Chord>
             <durationType>eighth</durationType>
             <Lyrics>
@@ -173,6 +169,9 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -180,6 +179,10 @@
           <Harmony>
             <root>14</root>
             </Harmony>
+          <RehearsalMark>
+            <offset x="-8.27419" y="-3.98194"/>
+            <text>Refren</text>
+            </RehearsalMark>
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>

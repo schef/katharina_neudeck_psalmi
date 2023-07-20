@@ -347,7 +347,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <text>o</text>
+              <text>od</text>
               </Lyrics>
             <Note>
               <pitch>67</pitch>
@@ -361,7 +361,7 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
-              <text>dmah</text>
+              <text>mah</text>
               </Lyrics>
             <Note>
               <pitch>66</pitch>
