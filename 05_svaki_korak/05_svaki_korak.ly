@@ -115,6 +115,9 @@ lyricOneZero = \lyricmode {
 \markup {
   \column {
     \line { \bold 2. }
+  }
+  \hspace #1
+  \column {
     \line { Svaki korak, svaki korak, hodam sa Isusom. }
     \line { Moj najbolji prijatelj, on me uvijek čuje. }
     \line { Svaki korak, svaki korak hodam sa Isusom, }

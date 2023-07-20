@@ -162,10 +162,14 @@ lyricOneZero = \lyricmode {
 \markup {
   \column {
     \line { \bold 2. }
+    \vspace #2
+    \line { \bold 3. }
+  }
+  \hspace #1
+  \column {
     \line { Uzmite jaram moj na sebe, učite od mene, }
     \line { jer ja sam krotka, ponizna srca, nađite kod mene mir. }
-    \line {  }
-    \line { \bold 3. }
+    \vspace #1
     \line { Uistinu, jaram moj je sladak, breme je moje lako. }
     \line { Uistinu, jaram moj je sladak, breme je moje lako. }
   }

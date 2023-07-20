@@ -130,6 +130,9 @@ lyricOneZero = \lyricmode {
 \markup {
   \column {
     \line { \bold 2. }
+  }
+  \hspace #1
+  \column {
     \line { Kad me brige tište, }
     \line { tebi glas podižem. }
     \line { Bože, ti čuješ me! }

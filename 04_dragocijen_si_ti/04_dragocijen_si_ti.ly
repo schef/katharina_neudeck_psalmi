@@ -151,6 +151,9 @@ lyricOneZero = \lyricmode {
 \markup {
   \column {
     \line { \bold 2. }
+  }
+  \hspace #1
+  \column {
     \line { Stvorio sam te, }
     \line { sazdao sam te, }
     \line { ja sam Bog, tvoj spasitelj. }
