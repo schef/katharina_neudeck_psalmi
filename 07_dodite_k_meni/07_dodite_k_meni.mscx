@@ -403,7 +403,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <root>23</root>
+            <root>11</root>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -822,7 +822,7 @@
       <Measure>
         <voice>
           <Harmony>
-            <root>23</root>
+            <root>11</root>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
