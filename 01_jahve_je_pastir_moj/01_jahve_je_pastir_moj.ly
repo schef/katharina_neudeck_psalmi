@@ -1404,7 +1404,7 @@
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics''
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic' text="begin"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text' text="vrut"'
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text' text="vru"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Note''
@@ -1426,7 +1426,7 @@
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/syllabic
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f' text="0/16"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/ticks_f
-%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text' text="ke"'
+%% -> /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text' text="tke"'
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics/text
 %% <- /museScore/Score/Staff/Measure/voice/Chord/Lyrics
 %% -> /museScore/Score/Staff/Measure/voice/Chord/Note''
@@ -1876,7 +1876,7 @@ lyricOneZero = \lyricmode {
   čem ja ne o -- sku -- dije -- vam. Na %|
   po -- lja -- na -- ma ze -- le -- nim __ on mi %|
   da -- je od -- mo -- ra. Na %|
-  vrut -- ke me ti -- ha -- ne vo -- di i %|
+  vru -- tke me ti -- ha -- ne vo -- di i %|
   krije -- pi du -- šu mo -- ju. __ %|
   %|
 }

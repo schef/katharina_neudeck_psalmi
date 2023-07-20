@@ -944,7 +944,7 @@
             <durationType>eighth</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <text>vrut</text>
+              <text>vru</text>
               </Lyrics>
             <Note>
               <pitch>69</pitch>
@@ -958,7 +958,7 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks_f>0/16</ticks_f>
-              <text>ke</text>
+              <text>tke</text>
               </Lyrics>
             <Note>
               <pitch>69</pitch>
