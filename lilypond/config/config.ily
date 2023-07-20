@@ -412,7 +412,7 @@ aFourR = \paper {
 }
 
 \header {
-  copyright = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Creative Commons—Attribution-ShareAlike 4.0 | Farmfest 2023 | Dravska 8, Pušćine } }
+  copyright = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Creative Commons—Attribution-ShareAlike 4.0 | Katharina Neudeck Psalmi } }
   %tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Tekst i glazba: Tobi Wörner } }
   tagline = ""
 }
