@@ -111,6 +111,10 @@
           <style>Composer</style>
           <text>Katharina Neudeck</text>
           </Text>
+        <Text>
+          <style>Instrument Name (Part)</style>
+          <text>4</text>
+          </Text>
         </VBox>
       <Measure len="1/4">
         <voice>
@@ -628,7 +632,7 @@
             <durationType>16th</durationType>
             <Lyrics>
               <syllabic>begin</syllabic>
-              <text>ne</text>
+              <text>Ne</text>
               </Lyrics>
             <Note>
               <pitch>63</pitch>
@@ -1579,7 +1583,7 @@
               <syllabic>end</syllabic>
               <ticks>720</ticks>
               <ticks_f>3/8</ticks_f>
-              <text>bom</text>
+              <text>bom.</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -1872,7 +1876,7 @@
           <Chord>
             <durationType>quarter</durationType>
             <Lyrics>
-              <text>ja,</text>
+              <text>ja</text>
               </Lyrics>
             <Note>
               <pitch>61</pitch>
@@ -2235,7 +2239,7 @@
               <syllabic>end</syllabic>
               <ticks>360</ticks>
               <ticks_f>3/16</ticks_f>
-              <text>tru</text>
+              <text>tru,</text>
               </Lyrics>
             <Note>
               <Spanner type="Tie">
@@ -2629,9 +2633,9 @@
         <Text>
           <style>Frame</style>
           <text>2.    
-Stvorio sam te    
-Sazdao sam te    
-Ja sam Bog, tvoj spasitelj    
+Stvorio sam te,    
+sazdao sam te,    
+ja sam Bog, tvoj spasitelj.    
 Ne boj se, otkupio sam te,    
 pozvao po imenu i ti si moj. </text>
           </Text>

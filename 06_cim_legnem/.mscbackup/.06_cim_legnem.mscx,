@@ -111,6 +111,10 @@
           <style>Composer</style>
           <text>Katharina Neudeck</text>
           </Text>
+        <Text>
+          <style>Instrument Name (Part)</style>
+          <text>6</text>
+          </Text>
         </VBox>
       <Measure len="1/4">
         <voice>
@@ -327,7 +331,7 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks_f>0/4</ticks_f>
-              <text>gnem</text>
+              <text>gnem,</text>
               </Lyrics>
             <Note>
               <pitch>57</pitch>
@@ -738,7 +742,7 @@
               <syllabic>end</syllabic>
               <ticks>480</ticks>
               <ticks_f>1/4</ticks_f>
-              <text>ti</text>
+              <text>ti,</text>
               </Lyrics>
             <Spanner type="Slur">
               <Slur>
@@ -795,7 +799,7 @@
             <Lyrics>
               <syllabic>end</syllabic>
               <ticks_f>0/8</ticks_f>
-              <text>hve</text>
+              <text>hve,</text>
               </Lyrics>
             <Note>
               <pitch>69</pitch>
@@ -1849,13 +1853,13 @@
         <height>1</height>
         <Text>
           <style>Frame</style>
-          <text>2.    
+          <text>2.
 Kad me brige tište,    
-tebi glas podižem    
-Bože, ti čuješ me.    
+tebi glas podižem.    
+Bože, ti čuješ me!    
 Teret činiš lakim,    
 grijehe mi opraštaš,    
-samo ti, Gospode!    </text>
+samo ti, Gospode!  </text>
           </Text>
         </TBox>
       </Staff>
