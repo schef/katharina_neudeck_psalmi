@@ -97,21 +97,25 @@ lyricOneZero = \lyricmode {
 }
 
 \markup {
-  
-  \column {
+  \column { 
     \line { \bold 2. }
+    \vspace #4
+    \line { \bold 3. }
+    \vspace #4
+    \line { \bold 4. }
+  }
+  \hspace #1
+  \column {
     \line { Da mi je dolinom smrti proći, }
     \line { zla se ne bojim, jer si sa mnom. }
     \line { Tvoj štap i palica tvoja }
     \line { utjeha su meni. }
-    \line {  }
-    \line { \bold 3. }
+    \vspace #1
     \line { Trpezu preda mnom prostireš, }
     \line { na oči dušmanima mojim. }
     \line { Uljem mi glavu mažeš, }
     \line { čaša se moja prelijeva. }
-    \line {  }
-    \line { \bold 4. }
+    \vspace #1
     \line { Dobrota i milost me prate }
     \line { sve dane života moga. }
     \line { U domu ću tvome biti }
