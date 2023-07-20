@@ -2,21 +2,21 @@
 \include "deutsch.ly"
 jazzChords = { \semiGermanChords }
 aFourL = {}
-markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
 %\include "../config/include.ily"
+markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
 
 \layout {
   indent = 0
 }
 
 \header {
-  titlex = "Farmfest 2023"
+  titlex = "Pjevajte Jahvi"
   title = "GOSPODE NAŠ"
-  poet = "Psalam 8"
-  %style = "Psalam 8"
+  %poet = "Psalam 8"
+  style = "Psalam 8"
   composer = "Katharina Neudeck"
-  meter = "8"
-  %broj = "8"
+  %meter = "8"
+  broj = "8"
   %tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Izvorno: Name, Album } }
 }
 
@@ -193,12 +193,16 @@ lyricOneZero = \lyricmode {
 \markup {
   \column {
     \line { \bold 2. }
+    \vspace #4
+    \line { \bold 3. }
+  }
+  \hspace #1
+  \column {
     \line { Što li je čovjek da ga se spominješ, }
     \line { sin čovječji, te ga pohodiš? }
     \line { Ti ga učini malo manjim od Boga, }
     \line { slavom i sjajem njega okruni. }
-    \line {  }
-    \line { \bold 3. }
+    \vspace #1
     \line { Vlast mu dade nad djelima svojim, }
     \line { njemu pod noge sve podloži. }
     \line { Jahve, naš Gospode, divno je ime, }

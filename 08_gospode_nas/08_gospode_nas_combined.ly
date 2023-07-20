@@ -237,12 +237,16 @@ staffThree = \relative c' {
 \markup {
   \column {
     \line { \bold 2. }
+    \vspace #4
+    \line { \bold 3. }
+  }
+  \hspace #1
+  \column {
     \line { Što li je čovjek da ga se spominješ, }
     \line { sin čovječji, te ga pohodiš? }
     \line { Ti ga učini malo manjim od Boga, }
     \line { slavom i sjajem njega okruni. }
-    \line {  }
-    \line { \bold 3. }
+    \vspace #1
     \line { Vlast mu dade nad djelima svojim, }
     \line { njemu pod noge sve podloži. }
     \line { Jahve, naš Gospode, divno je ime, }
