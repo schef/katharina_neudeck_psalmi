@@ -1,7 +1,7 @@
 \version "2.24.1"
 \include "deutsch.ly"
 jazzChords = { \semiGermanChords }
-aFourL = {}
+aFourR = {}
 \include "../config/include.ily"
 markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
 
@@ -21,7 +21,7 @@ markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bo
 }
 
 \paper {
-  \aFourL
+  \aFourR
   %min-systems-per-page = #7
   %annotate-spacing = ##t
   %system-system-spacing.padding = #3.2
