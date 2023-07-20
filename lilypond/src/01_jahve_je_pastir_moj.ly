@@ -10,10 +10,10 @@ markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bo
 }
 
 \header {
-  titlex = "Psalam 23"
+  titlex = "Pjevajte Jahvi"
   title = "JAHVE JE PASTIR MOJ"
   %poet = "Psalam 23"
-  %style = "Psalam 23"
+  style = "Psalam 23"
   composer = "Katharina Neudeck"
   meter = "1"
   broj = "1"
@@ -71,8 +71,11 @@ alignerOneZero = \relative {
 lyricOneZero = \lyricmode {
   Ja -- hve je pa -- stir moj, __ %|
   Ja -- hve je pa -- stir moj __ %|
-  Ja -- hve je pa -- stir moj, __ ni u %|
-  čem ja ne o -- sku -- dije -- vam. Na %|
+  Ja -- hve je pa -- stir moj, ni u %|
+  čem ja ne o -- sku -- dije -- vam. 
+  
+  \set stanza = "1."
+  Na %|
   po -- lja -- na -- ma ze -- le -- nim __ on mi %|
   da -- je od -- mo -- ra. Na %|
   vru -- tke me ti -- ha -- ne vo -- di i %|
@@ -94,6 +97,7 @@ lyricOneZero = \lyricmode {
 }
 
 \markup {
+  
   \column {
     \line { \bold 2. }
     \line { Da mi je dolinom smrti proći, }
