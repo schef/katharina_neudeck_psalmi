@@ -128,14 +128,18 @@ lyricOneZero = \lyricmode {
 }
 
 \markup {
-  \column {
+  \column { 
     \line { \bold 2. }
+    \vspace #4
+    \line { \bold 3. }
+  }
+  \hspace #1
+  \column {
     \line { Jahve je čuvar tvoj, }
     \line { Bog ti je zaklon i zaštita. }
     \line { Sunce ti neće danju nauditi }
     \line { ni mjesec noću. }
-    \line {  }
-    \line { \bold 3. }
+    \vspace #1
     \line { Bog te štiti od svakog zla, }
     \line { on čuva život tvoj, }
     \line { čuva te na odlasku i povratku }
