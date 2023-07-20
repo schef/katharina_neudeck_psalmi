@@ -2,21 +2,21 @@
 \include "deutsch.ly"
 jazzChords = { \semiGermanChords }
 aFourL = {}
-markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
 %\include "../config/include.ily"
+markMoj = #(define-music-function (letter) (string?) #{ \mark \markup { \box \bold #letter } #})
 
 \layout {
   indent = 0
 }
 
 \header {
-  titlex = "Farmfest 2023"
+  titlex = "Pjevajte Jahvi"
   title = "GOSPODE NAŠ"
-  poet = "Psalam 8"
-  %style = "Psalam 8"
+  %poet = "Psalam 8"
+  style = "Psalam 8"
   composer = "Katharina Neudeck"
-  meter = "8"
-  %broj = "8"
+  %meter = "8"
+  broj = "8"
   %tagline = \markup { \override #'(font-name . "JohnSans White Pro") \override #'(font-size . -3) { Izvorno: Name, Album } }
 }
 
