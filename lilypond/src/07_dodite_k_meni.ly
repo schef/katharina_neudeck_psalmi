@@ -161,6 +161,10 @@ lyricOneZero = \lyricmode {
 }
 
 \markup {
+    \vspace #1
+    \column { 
+    \hspace #3.4
+  }
   \column {
     \line { \bold 2. }
     \vspace #2

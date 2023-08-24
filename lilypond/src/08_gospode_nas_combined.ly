@@ -236,7 +236,7 @@ staffThree = \relative c' {
 }
 
 \markup {
-  \vspace #3
+  \vspace #7.8
   \column {
     \line { \bold 2. }
     \vspace #4

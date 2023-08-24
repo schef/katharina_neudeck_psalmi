@@ -149,7 +149,7 @@ lyricOneZero = \lyricmode {
 }
 
 \markup {
-  \vspace #3
+  \vspace #6.3
   \column {
     \line { \bold 2. }
   }
